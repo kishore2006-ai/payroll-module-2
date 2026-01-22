@@ -38,5 +38,22 @@ updated anytime through the admin interface without code changes.
 
 ### 📂 Project Structure
 md
+backend/
+ ├── config/
+ │   └── db.js
+ ├── models/
+ │   └── StatutoryRule.js
+ ├── routes/
+ │   └── statutoryRoutes.js
+ └── server.js
+
+frontend/
+ ├── src/
+ │   ├── pages/
+ │   │   └── StatutoryConfig.jsx
+ │   ├── services/
+ │   │   └── api.js
+ │   ├── App.jsx
+ │   └── main.jsx
 
 
