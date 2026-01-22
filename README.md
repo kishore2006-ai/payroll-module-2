@@ -7,17 +7,6 @@ Statutory & Compliance Configuration
 Module 2 of a Payroll Management System that handles statutory and compliance configuration
 such as PF, ESI, Professional Tax, and Tax Slabs using MERN stack.
 
-🏷️ Topics
-mern
-payroll-system
-statutory-compliance
-nodejs
-express
-mongodb
-react
-college-project
-
-
 ## Technologies Used
 - React (Vite)
 - Node.js
