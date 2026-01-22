@@ -36,9 +36,8 @@ updated anytime through the admin interface without code changes.
 
 ---
 
-### 📂 Project Structure
 ### 📁 Project Structure
-md
+
 ```text
 backend/
  ├── config/
