@@ -4,9 +4,19 @@
 Statutory & Compliance Configuration
 
 ## Description
-This module allows administrators to configure statutory payroll rules such as
-PF, ESI, Professional Tax, and Tax Slabs. The rules are dynamically stored and
-applied during payroll processing.
+Module 2 of a Payroll Management System that handles statutory and compliance configuration
+such as PF, ESI, Professional Tax, and Tax Slabs using MERN stack.
+
+🏷️ Topics
+mern
+payroll-system
+statutory-compliance
+nodejs
+express
+mongodb
+react
+college-project
+
 
 ## Technologies Used
 - React (Vite)
