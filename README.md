@@ -1,26 +1,12 @@
 # Payroll Management System – Module 2  
 ## Statutory & Compliance Configuration
 
-### 📌 Project Overview
-This project implements **Module 2** of a Payroll Management System inspired by Zoho Payroll.
-The module focuses on configuring statutory rules required for payroll processing such as
-Provident Fund (PF), Employee State Insurance (ESI), Professional Tax, and Tax Slabs.
+## Description
+This module allows administrators to configure statutory payroll rules such as
+PF, ESI, Professional Tax, and Tax Slabs. The rules are dynamically stored and
+applied during payroll processing.
 
-The system allows administrators to dynamically configure compliance rules without
-changing source code, making the application scalable and future-ready.
-
----
-
-### 🎯 Objectives
-- Configure statutory payroll rules
-- Store compliance data securely
-- Provide dynamic rule management
-- Support future payroll automation
-
----
-
-### 🛠️ Technologies Used
-**Frontend**
+## Technologies Used
 - React (Vite)
 - JavaScript (ES6+)
 - Tailwind CSS
