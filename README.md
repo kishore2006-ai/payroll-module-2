@@ -1,25 +1,71 @@
-# Payroll Management System – Module 2
+# Payroll Management System – Module 2  
+## Statutory & Compliance Configuration
 
-## Module Name
-Statutory & Compliance Configuration
+### 📌 Project Overview
+This project implements **Module 2** of a Payroll Management System inspired by Zoho Payroll.
+The module focuses on configuring statutory rules required for payroll processing such as
+Provident Fund (PF), Employee State Insurance (ESI), Professional Tax, and Tax Slabs.
 
-## Description
-This module allows administrators to configure statutory payroll rules such as
-PF, ESI, Professional Tax, and Tax Slabs. The rules are dynamically stored and
-applied during payroll processing.
+The system allows administrators to dynamically configure compliance rules without
+changing source code, making the application scalable and future-ready.
 
-## Technologies Used
+---
+
+### 🎯 Objectives
+- Configure statutory payroll rules
+- Store compliance data securely
+- Provide dynamic rule management
+- Support future payroll automation
+
+---
+
+### 🛠️ Technologies Used
+**Frontend**
 - React (Vite)
+- JavaScript (ES6+)
+- Tailwind CSS
+
+**Backend**
 - Node.js
 - Express.js
-- MongoDB
 
-## Features
-- Dynamic statutory rule creation
-- Country-based payroll compliance
-- Secure API integration
-- Scalable and configurable design
+**Database**
+- MongoDB (Mongoose)
 
-## Innovation
-Unlike traditional payroll systems with fixed rules, this module introduces a
-dynamic statutory engine that adapts to changing laws without code changes.
+---
+
+### ⚙️ Features
+- Country-based statutory configuration
+- PF, ESI, and Professional Tax setup
+- Dynamic data storage using MongoDB
+- REST API integration
+- Scalable payroll rule engine
+
+---
+
+### 💡 Innovation
+Traditional payroll systems use hard-coded statutory values.
+This module introduces a **dynamic compliance engine**, where statutory rules can be
+updated anytime through the admin interface without code changes.
+
+---
+
+### 📂 Project Structure
+backend/
+├── config/
+│ └── db.js
+├── models/
+│ └── StatutoryRule.js
+├── routes/
+│ └── statutoryRoutes.js
+└── server.js
+
+frontend/
+├── src/
+│ ├── pages/
+│ │ └── StatutoryConfig.jsx
+│ ├── services/
+│ │ └── api.js
+│ ├── App.jsx
+│ └── main.jsx
+└── index.html
