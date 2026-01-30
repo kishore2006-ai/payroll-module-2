@@ -50,22 +50,23 @@ updated anytime through the admin interface without code changes.
 
 ---
 
-### 📂 Project Structure
+### 📁 Project Structure
+
+```text
 backend/
-├── config/
-│ └── db.js
-├── models/
-│ └── StatutoryRule.js
-├── routes/
-│ └── statutoryRoutes.js
-└── server.js
+ ├── config/
+ │   └── db.js
+ ├── models/
+ │   └── StatutoryRule.js
+ ├── routes/
+ │   └── statutoryRoutes.js
+ └── server.js
 
 frontend/
-├── src/
-│ ├── pages/
-│ │ └── StatutoryConfig.jsx
-│ ├── services/
-│ │ └── api.js
-│ ├── App.jsx
-│ └── main.jsx
-└── index.html
+ ├── src/
+ │   ├── pages/
+ │   │   └── StatutoryConfig.jsx
+ │   ├── services/
+ │   │   └── api.js
+ │   ├── App.jsx
+ │   └── main.jsx
