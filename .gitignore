@@ -1,8 +1,12 @@
-# Node dependencies
+# Node
 node_modules/
 
-# Vite cache
-frontend/.vite/
+# Vite
+.vite/
 
-# Environment variables
+# Env files
 .env
+
+# OS files
+.DS_Store
+Thumbs.db
