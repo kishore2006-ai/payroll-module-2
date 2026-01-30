@@ -2,18 +2,18 @@ const express = require("express");
 const router = express.Router();
 const StatutoryRule = require("../models/StatutoryRule");
 
-// CREATE statutory rules
+// POST - Save statutory config
 router.post("/", async (req, res) => {
   try {
     const rule = new StatutoryRule(req.body);
     await rule.save();
-    res.status(201).json(rule);
+    res.status(201).json({ message: "Saved successfully" });
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.status(500).json({ error: error.message });
   }
 });
 
-// GET statutory rules
+// GET - Fetch statutory config
 router.get("/", async (req, res) => {
   const rules = await StatutoryRule.find();
   res.json(rules);
